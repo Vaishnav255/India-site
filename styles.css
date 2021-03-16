@@ -1,0 +1,258 @@
+
+
+.container-fluid{
+    position:relative;
+}
+.carousel .carousel-item{
+    padding:2% 0;
+}
+.head{
+  border-radius: 80px;
+}
+
+h1{
+    position:absolute;
+    left:10%;
+    top:50%;
+    color:white;
+    font-family: 'Comfortaa', cursive;
+}
+h4{
+    position:absolute;
+    left:10%;
+    top:58%;
+    color:white;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.img-fluid{
+  height: 700px;
+}
+
+
+/* home section  */
+.bharat-img{
+  width:100%;
+  height:auto;
+  background-size: cover;
+}
+
+
+
+
+
+/* About Section */
+
+#About{
+  padding: 3% 20%;
+}
+.text{
+  text-align: justify;
+  float: right;
+  /* display: block; */
+
+}
+.text-p{
+  border-right: 2px dotted black;
+  margin: 0 5px 50px 0;
+  padding-right: 20px;
+  font-family: 'ABeeZee', sans-serif;
+}
+
+.info{
+  display: inline-block;
+  margin-right: 20px;
+  border:2px solid red;
+  border-radius: 20%;
+  width:220px;
+  text-align: center;
+  /* background-image: linear-gradient(to bottom right, orange, yellow); */
+}
+.info:hover{
+  background-color: bisque;
+}
+
+.box{
+  text-align: center;
+}
+
+/* festival section */
+
+.fest-img{
+  width: 100%;
+  height: auto;
+}
+/* Places Section */
+#Places{
+  background-color: bisque;
+}
+
+.carousel-2{
+    padding:3% 15%;
+}
+
+.pad{
+  padding:3% 15%;
+  padding-bottom: 0;
+  text-align: justify;
+}
+
+.text-state{
+  font-family: 'ABeeZee', sans-serif;
+}
+
+#festival{
+  padding: 3% 15%;
+}
+
+.places-img{
+  width:100%;
+  height: auto;
+}
+
+
+/* media section */
+@media (max-width: 990px) {
+  .card-text{
+    display: none;
+  }
+  .therma{
+    font-size: 1rem;
+    text-align: center;
+  }
+  h2{
+    text-align: center;
+  }
+  .card{
+    margin-top: 20px;
+  }
+}
+
+@media (max-width:768px) {
+  h1{
+    font-size: 2rem;
+  }
+  .box-1{
+    font-size: 2rem;
+  }
+  .navbar-toggler{
+    float:right;
+  }
+}
+
+@media (max-width:468px) {
+  h1{
+    font-size: 1.5rem;
+
+  }
+  h4{
+    font-size: 1rem;
+    line-height: 3;
+  }
+  .navbar-toggler{
+    float:right;
+  }
+}
+
+
+/* Seasons section */
+
+#Seasons{
+  background-color:white;
+}
+
+.season-img{
+  width: 100%;
+  height: auto;
+}
+.carousel-caption{
+  position:absolute;
+  top:20%;
+  left:-5%;
+  z-index:2;
+}
+
+
+/* .cont-1{
+
+    padding:5%;
+}
+.cont-2{
+    text-align: center;
+
+}
+
+.clas1{
+    width:400px;
+    height:240px;
+    background-color:#94ebcd;
+    padding:5%;
+}
+
+.clas2{
+    width:350px;
+    height:200px;
+    background-color:#d3e0ea;
+    padding:5%;
+    text-align:center;
+}
+
+.clas3{
+    width:280px;
+    height:150px;
+    background-color:#ffc93c;
+    text-align:center;
+    padding:5%;
+}
+
+
+.box-1{
+    font-size: 5rem;
+    margin-left: 100px;
+    color: white;
+} */
+
+
+/* How section */
+#How{
+  padding:7% 15%;
+}
+
+.therma{
+    font-size:7rem;
+    color:white;
+    text-align: webkit-center;
+}
+
+/* Summer section */
+#Summer{
+  padding: 7% 10%;
+  background-color:#ffc93c;
+}
+
+
+
+/* Rainy season */
+#Rainy{
+  padding: 7% 10%;
+  background-color: #a4ebf3;
+}
+
+
+
+/* Winter Sectiom */
+#Winter{
+  padding: 7% 10%;
+  background-color: #d0e8f2;
+}
+
+
+
+/* Spring Sectiom */
+#Spring{
+  padding: 7% 10%;
+  background-color: #6ddccf;
+}
