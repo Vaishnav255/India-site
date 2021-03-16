@@ -10,6 +10,11 @@
   border-radius: 80px;
 }
 
+.navbar-brand{
+  width:50%;
+}
+
+
 h1{
     position:absolute;
     left:10%;
